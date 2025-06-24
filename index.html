@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clinica dentista</title>
+    <link rel="stylesheet" href="estilos-CSS/cartrer.css">
+</head>
+<body>
+    <header>
+        <h1>RINNOVARI</h1>
+       <h2>Odontologia Humanizada</h2>
+        <p>Bem-vindo à nossa clínica dentária! <br>
+             Aqui, cuidamos do seu sorriso com carinho e profissionalismo.</p>
+        <nav>
+            <ul>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+            </ul>
+        </nav>
+      
+
+        
+    </header>
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Limpeza Dental</li>
+            <p>Realizamos a limpeza dental com profissionais qualificados e equipamentos de última geração.  <br>
+              
+                A limpeza dental é essencial para manter a saúde bucal e prevenir doenças.</p>
+
+            </p>
+            <li>Clareamento Dental</li>
+            <p>
+                Oferecemos clareamento dental seguro e eficaz para deixar seu sorriso mais branco e brilhante.
+            </p>
+            <li>Tratamento de Cáries</li>
+            <p>Tratamos cáries de forma rápida e indolor, garantindo a saúde do seu dente.</p>
+            <li>Restaurações Dentárias</li>
+            <p>Realizamos restaurações dentárias com materiais de alta qualidade para devolver a funcionalidade e estética do seu sorriso.</p>  
+            <li>Tratamento de Gengivite</li>
+            <p>Tratamos gengivite com técnicas avançadas para garantir a saúde das suas gengivas.</p>
+            <li>Canal Radicular</li>
+            <p>Realizamos o tratamento de canal radicular com cuidado e precisão para salvar dentes comprometidos.</p>
+            <li>Próteses Dentárias</li>
+            <p>Oferecemos próteses dentárias personalizadas para restaurar a sua mastigação e estética.</p>
+            <li>Odontopediatria</li>
+            <p>Atendemos crianças com carinho e atenção, garantindo uma experiência positiva desde cedo.</p>
+            <li>Periodontia</li>
+            <p>Tratamos doenças periodontais com técnicas avançadas para preservar a saúde das suas gengivas.</p>
+            <li>Ortodontia</li>
+            <p>Oferecemos tratamentos ortodônticos personalizados para corrigir problemas de alinhamento dental.</p>
+            <li>Implantes Dentários</li>
+        </ul>
+        <p>Oferecemos uma ampla gama de serviços dentários para atender às suas necessidades. Nossa equipe está pronta para cuidar do seu sorriso com profissionalismo e carinho.</p>
+        <p>Agende uma consulta e venha nos conhecer!</p>
+    
+
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma equipe de dentistas apaixonados por cuidar da saúde bucal. Nossa missão é proporcionar um atendimento de qualidade e conforto aos nossos pacientes.</p>
+        <p>Localizados no coração da cidade, oferecemos uma ampla gama de serviços dentários para todas as idades.</p>
+    </section>
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <p>Confira algumas fotos da nossa clínica e equipe.</p>
+        <img src="imagens/clinica1.jpg" alt="Foto da Clínica" width="300">
+        <img src="imagens/equipe.jpg" alt="Equipe de Dentistas" width="300">
+    </section>
+    <section id="avaliacoes">
+        <h2>Avaliações</h2>
+        <p>Veja o que nossos pacientes dizem sobre nós:</p>
+        <blockquote>
+            "Excelente atendimento! Me senti muito bem cuidada." - Maria S.
+        </blockquote>
+        <blockquote>
+            "Profissionais atenciosos e competentes. Recomendo!" - João P.
+        </blockquote>
+    </section>
+       <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para agendar uma consulta ou esclarecer suas dúvidas.</p>
+       
+  
+         <form action="arquivo.php" method="post" autocomplete="on">
+                <label for="nome">Nome:</label>
+                <input type="text" id="inome" name="nome" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="iemail" name="email" required><br>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="itelefone" name="telefone" min="0" max=""  autocomplete="tel" pattern="[0-9]{4}-[0-9]{4}" required><br>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="imensagem" name="mensagem" required></textarea><br>
+    
+                <a href="termos.html">Leia os termos e condições</a>
+                <input type="checkbox" id="iaceito" class="chequemm" name="aceito" value="sim" required>
+                <label for="iaceito" class="emaceito">Aceito os termos e condições</label>
+    
+                <br>
+                <button type="submit">Enviar</button>
+                <input type="reset" value="Limpar">
+            </form>
+
+         </section>
+    <footer>
+        <p>&copy; 2023 Clinica Dentista. Todos os direitos reservados.</p>
+        <p>Endereço: Rua Exemplo, 123 - Cidade, Estado</p>
+        <p>Telefone: (11) 1234-5678</p>
+        <p>Email:
+        <a href="mailto:contato@clinicadentista.com">contato@clinicadentista.com</a>
+    </footer>
+    <script>
+        // Exemplo de script simples
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Página carregada com sucesso!');
+        });
+    </script>
+ 
+
+</body>
+</html>
