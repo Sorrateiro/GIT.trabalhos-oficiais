@@ -17,10 +17,211 @@
     margin: 0;
     padding: 0;
 }   
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+    color: #222;
+    line-height: 1.7;
+    font-size: 16px;
+    min-height: 100vh;
+    letter-spacing: 0.01em;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-body{
-    font-family: 'Open Sans', sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-    line-height: 1.6;
+/* Cabeçalho com cor diferente */
+header {
+    width: 100%;
+    background-color: #2a4365; /* azul escuro */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+header h1 {
+    font-family: 'Diphylleia', serif;
+    font-size: 4.5rem;
+    margin-bottom: 8px;
+}
+header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+.bemvindo {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #2a4365, #1a365d);
+    color: #fff;
+    margin-bottom: 24px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+header nav ul li {
+    padding: 3px 0  !important;
+    list-style: none;
+    display: inline-block;
+    background-color: #243752;
+    margin: 0 15px;
+    padding: 3px 10px   !important;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+section ul li {
+    padding: 8px 12px;
+    background-color: #e2e8f0; /* cinza claro */    
+    border-radius: 4px;
+    margin-bottom: 8px;
+    list-style: none;
+}
+section ul p {
+    padding: 8px 12px;
+   
+    margin-bottom: 16px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border-radius: 4px; 
+    color: #2d3748; /* cinza escuro */
+
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+form input[type="text"],
+form input[type="email"],   
+form input[type="tel"],
+form input[type="date"],
+form input[type="time"],
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+form input[type="submit"] {
+    background-color: #2a4365; /* azul escuro */
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+form input[type="submit"]:hover {
+    background-color: #1a365d; /* azul mais escuro */
+}
+form textarea {
+    height: 100px;
+    resize: vertical;
+}
+.foto-clinica {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+footer {
+    width: 100%;
+    background-color: #2a4365; /* azul escuro */
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+    position: relative;
+    bottom: 0;
+}
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+form button {
+    background-color: #2a4365; /* azul escuro */
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+form button:hover {
+    background-color: #1a365d; /* azul mais escuro */
+}
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="tel"]:focus,
+form input[type="date"]:focus,
+form input[type="time"]:focus,
+form textarea:focus {
+    border-color: #2a4365; /* azul escuro */
+    box-shadow: 0 0 5px rgba(42, 67, 101, 0.5);
+}
+
+blockquote {
+    padding: 12px 16px;
+    margin: 16px 0;
+    border-left: 4px solid #2a4365; /* azul escuro */
+    background-color: #f0f4f8;
+}
+
+blockquote p {
+    margin: 0;
+    font-style: italic;
+    color: #555;
+}
+blockquote footer {
+    text-align: right;
+    font-size: 14px;
+    color: #777;
+}
+blockquote footer a {
+    color: #2a4365; /* azul escuro */
+    text-decoration: none;
+}
+blockquote footer a:hover {
+    text-decoration: underline;
+}
+blockquote footer a:visited {
+    color: #1a365d; /* azul mais escuro */
+}
+blockquote footer a:active {
+    color: #0f172a; /* azul ainda mais escuro */
+}
+blockquote footer a:focus {
+    outline: 2px solid #2a4365; /* azul escuro */
+    outline-offset: 2px;
+}
+blockquote footer a:hover {
+    color: #1a365d; /* azul mais escuro */
 }
