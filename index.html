@@ -12,9 +12,9 @@
         <h1>RINNOVARE</h1>
        <div class="logo">
            <img src="imagens/logorinovare.png" alt="Logo da Clínica Dentária" width="100"> 
-           <h2>Odontologia Humanizada</h2>
-            <p>Bem-vindo à nossa clínica dentária! <br>
-                 Aqui, cuidamos do seu sorriso com carinho e profissionalismo.</p>
+           <h2><em>Odontologia Humanizada</em></h2>
+            <p><em>Bem-vindo à nossa clínica dentária! <br>
+                 Aqui, cuidamos do seu sorriso com carinho e profissionalismo.</em></p>
        </div>
         <nav>
             <ul>
@@ -93,30 +93,46 @@
             <p>Entre em contato conosco para agendar uma consulta ou esclarecer suas dúvidas.</p>
         
   
-         <form action="arquivo.php" method="post" autocomplete="on">
-                <label for="nome">Nome:</label>
-                <input type="text" id="inome" name="nome" required><br>
-                <label for="email">Email:</label>
-                <input type="email" id="iemail" name="email" required><br>
-                <label for="telefone">Telefone:</label>
-                <input type="tel" id="itelefone" name="telefone" min="0" max=""  autocomplete="tel" pattern="[0-9]{4}-[0-9]{4}" required><br>
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="imensagem" name="mensagem" required></textarea><br>
-    
-                <a href="termos.html">Leia os termos e condições</a>
-                <input type="checkbox" id="iaceito" class="chequemm" name="aceito" value="sim" required>
-                <label for="iaceito" class="emaceito">Aceito os termos e condições</label>
-    
-                <br>
-                <button type="submit">Enviar</button>
-                <input type="reset" value="Limpar">
-            </form>
+        <form action="arquivo.php" method="post" autocomplete="on">
+            <label for="nome">Nome:</label>
+            <input type="text" id="inome" name="nome" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="iemail" name="email" required><br>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="itelefone" name="telefone" autocomplete="tel" pattern="[0-9]{4}-[0-9]{4}" required><br>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="imensagem" name="mensagem" required></textarea><br>
 
-         </section>
+            <a href="termos.html">Leia os termos e condições</a>
+            <input type="checkbox" id="iaceito" class="chequemm" name="aceito" value="sim" required>
+            <label for="iaceito" class="emaceito">Aceito os termos e condições</label>
+
+            <br>
+            <button type="submit">Enviar</button>
+            <input type="reset" value="Limpar">
+        </form>
+        <section id="convenios"></section>
+            <h2>Convênios Aceitos</h2>
+            <ul>
+                <li><a href="https://www.unimed.coop.br/" target="_blank">Unimed</a></li>
+                <li><a href="https://www.bradescosaude.com.br/" target="_blank">Bradesco Saúde</a></li>
+                <li><a href="https://www.amildental.com.br/" target="_blank">Amil Dental</a></li>
+                <li><a href="https://www.odontoprev.com.br/" target="_blank">OdontoPrev</a></li>
+                <li><a href="https://www.sulamericadental.com.br/" target="_blank">SulAmérica Saúde</a></li>
+                <li><a href="https://www.portoseguro.com.br/odontologico" target="_blank">Porto Seguro Odonto</a></li>
+                <li><a href="https://www.caixaseguradora.com.br/" target="_blank">Caixa Seguradora</a></li>
+                <li><a href="https://www.metlife.com.br/planos-odontologicos/" target="_blank">MetLife</a></li>
+                <li><a href="https://www.gndi.com.br/odontologia" target="_blank">NotreDame Intermédica</a></li>
+                <li>Outros, consulte-nos!</li>
+            </ul>
+            <p><strong>Entre em contato para verificar a cobertura do seu convênio.</strong></p>
+        </section>
     <footer>
         <p>&copy; RINNOVARE Odontologia</p>
         <p>Endereço: rua Dos Tupis, 42, Gravataí, RS</p>
-        <p>Telefone: (51) 39336495</p>
+        <p>
+            Telefone: (51) 39336495   
+        </p>
         <p>Horário de Atendimento: Segunda a Sexta, das 8h às 18h</p>
         <p>Redes Sociais: <a href="https://www.facebook.com/Oralslimrn" target="_blank">Facebook</a>, <a href="https://www.instagram.com/rinnovareoh/" target="_blank">Instagram</a></p>
         <p>Desenvolvido por <a href="https://www.seusite.com" target="_blank">Seu Site</a></p>
@@ -131,6 +147,31 @@
         });
     </script>
  
-
+<style>
+.whatsapp-fixed {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    background: #25D366;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    z-index: 9999;
+    text-decoration: none;
+}
+.whatsapp-fixed img {
+    width: 28px;
+    height: 28px;
+    margin-right: 0;
+}
+</style>
+<a href="https://wa.me/555139336495" class="whatsapp-fixed" target="_blank" title="WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+</a>
 </body>
 </html>

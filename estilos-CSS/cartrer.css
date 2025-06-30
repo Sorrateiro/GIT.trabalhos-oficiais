@@ -225,3 +225,79 @@ blockquote footer a:focus {
 blockquote footer a:hover {
     color: #1a365d; /* azul mais escuro */
 }
+ .convenios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.convenios img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.convenios img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.convenios img:active {
+    transform: scale(0.95);
+}
+.convenios img:focus {
+    outline: 2px solid #2a4365; /* azul escuro */
+    outline-offset: 2px;
+}
+.convenios img:focus:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+.convenios img:focus:active {
+    transform: scale(0.9);
+}
+.convenios ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.convenios ul li {
+    flex: 1 1 200px; /* Flexível, mas mínimo de 200px */
+    text-align: center;
+}
+.convenios ul li a {
+    text-decoration: none;
+    color: #2a4365; /* azul escuro */
+    font-weight: bold;
+}
+.convenios ul li a:hover {
+    text-decoration: double underline;
+}   
+.convenios ul li a:focus {
+    outline: 2px solid #9fa9b6; /* azul escuro */
+    outline-offset: 2px;
+}
+.convenios ul li a:active {
+    color: #1a365d; /* azul mais escuro */
+}
+.convenios ul li a:visited {
+    color: #0f172a; /* azul ainda mais escuro */
+}
+.convenios ul li a:focus:hover {
+    color: #1a365d; /* azul mais escuro */
+}
+.convenios ul li a:focus:active {
+    color: #0f172a; /* azul ainda mais escuro */
+}
+.convenios ul li a:focus:hover {
+    text-decoration: underline;
+}
+.convenios ul li a:focus:active {
+    text-decoration: underline;
+}
+.convenios ul li a:focus:hover {
+    text-decoration: double underline;
+}
