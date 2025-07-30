@@ -1,4 +1,4 @@
-function toggleVisibility() {
+ function toggleVisibility() {
     const oculto = document.getElementById('oculto');
     const exames = document.getElementById('exames');
     const Fluoretaçao = document.getElementById("Fluoretaçao");
