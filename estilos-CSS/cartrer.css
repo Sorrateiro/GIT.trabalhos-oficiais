@@ -231,6 +231,9 @@ blockquote footer a:hover {
     justify-content: center;
     gap: 20px;
 }
+#servicos ul p{
+    display: none;
+}
 .convenios img {
     width: 100px;
     height: 100px;
@@ -255,15 +258,17 @@ blockquote footer a:hover {
 .convenios img:focus:active {
     transform: scale(0.9);
 }
-.convenios ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+ #avaliacoes blockquote img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    float: right;
+    margin: -2px 10px;
+    padding: 1px;
+
 }
+
 .convenios ul li {
     flex: 1 1 200px; /* Flexível, mas mínimo de 200px */
     text-align: center;
@@ -303,12 +308,12 @@ blockquote footer a:hover {
 }
 .whatsapp-fixed {
     position: fixed;
-    right: 20px;
+    right: 30px;
     bottom: 30px;
     background: #25D366;
     color: #fff;
-    padding: 12px 18px;
-    border-radius: 50% 50%;
+    padding: 12px 12px;
+    border-radius: 50% ;
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     font-size: 18px;
     font-weight: bold;
@@ -318,7 +323,8 @@ blockquote footer a:hover {
     text-decoration: none;
 }
 .whatsapp-fixed img {
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
     margin-right: 0;
 }

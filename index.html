@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="estilos-CSS/cartrer.css">
     <link rel="shortcut icon" href="imagens/favicon do dente/android-chrome-192x192.png" type="image/x-icon">
 </head>
-<body>
+<body onload="oculto()">
     <header>
         <h1>RINNOVARE</h1>
        <div class="logo">
-           <img src="imagens/logorinovare.png" alt="Logo da Clínica Dentária" width="100"> 
+           <img src="imagens/dente-imagem-png.png" alt="Logo da Clínica Dentária" width="100"> 
            <h2><em>Odontologia Humanizada</em></h2>
             <p><em>Bem-vindo à nossa clínica dentária! <br>
                  Aqui, cuidamos do seu sorriso com carinho e profissionalismo.</em></p>
@@ -31,37 +31,39 @@
     <section id="servicos">
         <h2>Nossos Serviços</h2>
         <ul>
-            <li>Limpeza Dental</li>
-            <p>Realizamos a limpeza dental com profissionais qualificados e equipamentos de última geração.  <br>
-              
-                A limpeza dental é essencial para manter a saúde bucal e prevenir doenças.</p>
-                <p>Realizamos a limpeza dental com profissionais qualificados e equipamentos de última geração. A limpeza dental é essencial para manter a saúde bucal e prevenir doenças, como cáries, gengivite e tártaro. Além de proporcionar um sorriso mais bonito e saudável, a profilaxia ajuda a manter o hálito fresco e evita complicações futuras. Agende sua consulta e invista no cuidado que seu sorriso merece!</p>
-
-         
-            <li>Clareamento Dental</li>
-            <p>
-                Oferecemos clareamento dental seguro e eficaz para deixar seu sorriso mais branco e brilhante. Utilizamos técnicas modernas e produtos aprovados, garantindo resultados visíveis sem prejudicar a saúde dos seus dentes. O clareamento pode ser realizado tanto em consultório quanto em casa, sob orientação profissional, proporcionando conforto e praticidade. Recupere a confiança no seu sorriso e surpreenda-se com a diferença que um clareamento dental pode fazer na sua autoestima. Agende uma avaliação e saiba qual a melhor opção para você!
+            <li id="oculto">Limpeza Dental</li> 
+                <p id="lista00">A limpeza dental é essencial para manter a saúde bucal e prevenir doenças. Realizamos a profilaxia com profissionais qualificados e equipamentos de última geração, garantindo um sorriso mais bonito e saudável. A limpeza dental ajuda a remover placa bacteriana, tártaro e manchas, proporcionando um hálito fresco e evitando complicações futuras. Agende sua consulta e invista no cuidado que seu sorriso merece!</p>
+            <li id="exames">Exames Odontológicos</li>
+                <p id="lista01">Realizamos exames odontológicos completos para avaliar a saúde bucal e identificar possíveis problemas. Nossos profissionais utilizam tecnologia avançada para garantir diagnósticos precisos e eficazes. Os exames incluem avaliação clínica, radiografias e orientações personalizadas sobre cuidados bucais. A detecção precoce de problemas dentários é fundamental para evitar tratamentos mais complexos no futuro. Agende sua consulta e cuide da saúde do seu sorriso!</p>
+            <li id=" Fluoretaçao">Fluoretação</li>
+                <p id="lista02" >A fluoretação é um procedimento importante para prevenir cáries e fortalecer o esmalte dental. Utilizamos produtos fluorados de alta qualidade, aplicados de forma segura e eficaz, garantindo proteção adicional para os dentes. A fluoretação é especialmente recomendada para crianças e adolescentes, mas também pode beneficiar adultos com risco elevado de cáries. Agende uma consulta e saiba mais sobre como a fluoretação pode ajudar a manter seu sorriso saudável!</p>
+            <li id="Clareamento">Clareamento Dental</li>
+                 <p id="lista03">Oferecemos clareamento dental seguro e eficaz para deixar seu sorriso mais branco e brilhante. Utilizamos técnicas modernas e produtos aprovados, garantindo resultados visíveis sem prejudicar a saúde dos seus dentes. O clareamento pode ser realizado tanto em consultório quanto em casa, sob orientação profissional, proporcionando conforto e praticidade. Recupere a confiança no seu sorriso e surpreenda-se com a diferença que um clareamento dental pode fazer na sua autoestima. Agende uma avaliação e saiba qual a melhor opção para você!
             </p>
-            <li>Tratamento de Cáries</li>
-            <p>Tratamos cáries de forma rápida e indolor, garantindo a saúde do seu dente. Utilizamos técnicas modernas e materiais de alta qualidade para remover a cárie e restaurar a estrutura do dente, preservando ao máximo o tecido saudável. O tratamento é realizado com anestesia local, proporcionando conforto ao paciente durante todo o procedimento. Após o tratamento, orientamos sobre os cuidados necessários para evitar novas cáries, como higiene bucal adequada e alimentação equilibrada. Agende sua consulta e mantenha seu sorriso saudável!</p>
-            <li>Restaurações Dentárias</li>
-            <p>Realizamos restaurações dentárias com materiais de alta qualidade para devolver a funcionalidade e estética do seu sorriso. Nossas restaurações são feitas com resinas compostas modernas, que se adaptam perfeitamente à cor natural dos dentes, proporcionando um resultado discreto e duradouro. O procedimento é rápido, seguro e visa preservar ao máximo a estrutura dental saudável. Após a restauração, orientamos sobre os cuidados necessários para garantir a longevidade do tratamento e manter seu sorriso sempre bonito. Agende uma avaliação e saiba como podemos recuperar a saúde e beleza dos seus dentes!</p>  
-            <li>Tratamento de Gengivite</li>
-            <p>Tratamos gengivite com técnicas avançadas para garantir a saúde das suas gengivas. A gengivite é uma inflamação causada principalmente pelo acúmulo de placa bacteriana, podendo evoluir para problemas mais graves se não tratada adequadamente. Nosso tratamento inclui a remoção cuidadosa da placa e do tártaro, orientações de higiene bucal personalizada e acompanhamento regular para prevenir recidivas. Com atendimento humanizado e tecnologia moderna, ajudamos você a manter gengivas saudáveis, evitando sangramentos, mau hálito e perda dentária. Agende uma avaliação e cuide do seu sorriso desde a base!</p>
-            <li>Canal Radicular</li>
-            <p>Realizamos o tratamento de canal radicular com cuidado e precisão para salvar dentes comprometidos. O procedimento é indicado quando a polpa do dente está inflamada ou infectada, geralmente devido a cáries profundas ou traumas. Utilizamos técnicas modernas e anestesia local para garantir o máximo de conforto ao paciente durante todo o processo. Após a remoção da polpa comprometida, o canal é cuidadosamente limpo, desinfectado e preenchido com material biocompatível, preservando a estrutura dental e evitando a extração. Nossa equipe acompanha cada etapa do tratamento, orientando sobre os cuidados pós-procedimento para garantir a recuperação e a saúde do seu sorriso. Agende uma avaliação e saiba mais sobre como o tratamento de canal pode salvar seu dente e restaurar sua qualidade de vida!</p>
-            <li>Próteses Dentárias</li>
-            <p>Oferecemos próteses dentárias personalizadas para restaurar a sua mastigação e estética. Nossas próteses são confeccionadas com materiais de alta qualidade, proporcionando conforto, durabilidade e aparência natural. Trabalhamos com diferentes tipos de próteses, como próteses totais, parciais e sobre implantes, sempre buscando a melhor solução para cada paciente. O processo inclui avaliação detalhada, planejamento individualizado e acompanhamento em todas as etapas, garantindo adaptação perfeita e satisfação com o resultado. Recupere sua confiança ao sorrir, falar e se alimentar. Agende uma consulta para saber qual prótese é ideal para você!</p>
-            <li>Odontopediatria</li>
-            <p>Atendemos crianças com carinho e atenção, garantindo uma experiência positiva desde cedo. Nossa equipe é especializada em odontopediatria, utilizando técnicas lúdicas e abordagem humanizada para que os pequenos se sintam seguros e confortáveis durante o atendimento. Realizamos acompanhamento preventivo, aplicação de flúor, orientação sobre higiene bucal e tratamento de cáries infantis. O cuidado com a saúde bucal na infância é fundamental para o desenvolvimento de dentes fortes e saudáveis. Agende uma consulta e proporcione ao seu filho um sorriso saudável desde os primeiros anos de vida!</p>
-            <li>Periodontia</li>
-            <p>Tratamos doenças periodontais com técnicas avançadas para preservar a saúde das suas gengivas. A periodontia é responsável pelo diagnóstico, prevenção e tratamento de problemas que afetam os tecidos de suporte dos dentes, como gengivas e osso. Realizamos procedimentos como raspagem, alisamento radicular e acompanhamento clínico para controlar a progressão da doença periodontal, evitando a perda dentária. Nossa equipe orienta sobre a importância da higiene bucal adequada e realiza avaliações periódicas para garantir a saúde das gengivas. Com atendimento humanizado e tecnologia moderna, ajudamos você a manter um sorriso saudável e livre de complicações periodontais. Agende uma consulta para avaliação e cuide da base do seu sorriso!</p>
-            <li>Ortodontia</li>
-            <p>Oferecemos tratamentos ortodônticos personalizados para corrigir problemas de alinhamento dental. Nossa equipe utiliza aparelhos modernos, incluindo opções estéticas como alinhadores transparentes, para proporcionar conforto e discrição durante o tratamento. A ortodontia não só melhora a aparência do sorriso, mas também contribui para a saúde bucal, facilitando a higienização e prevenindo problemas como cáries e doenças gengivais. Realizamos avaliação detalhada para indicar o melhor tipo de aparelho para cada paciente, acompanhando todo o processo até a obtenção de resultados satisfatórios. Agende uma consulta e descubra como podemos transformar o seu sorriso com a ortodontia!</p>
-            <li>Implantes Dentários</li>
+            <li id="Tratamento">Tratamento de Cáries</li>
+                <p id="lista04">Tratamos cáries de forma rápida e indolor, garantindo a saúde do seu dente. Utilizamos técnicas modernas e materiais de alta qualidade para remover a cárie e restaurar a estrutura do dente, preservando ao máximo o tecido saudável. O tratamento é realizado com anestesia local, proporcionando conforto ao paciente durante todo o procedimento. Após o tratamento, orientamos sobre os cuidados necessários para evitar novas cáries, como higiene bucal adequada e alimentação equilibrada. Agende sua consulta e mantenha seu sorriso saudável!</p>
+            <li id="Restaurações">Restaurações Dentárias</li>
+                <p id="lista05">Realizamos restaurações dentárias com materiais de alta qualidade para devolver a funcionalidade e estética do seu sorriso. Nossas restaurações são feitas com resinas compostas modernas, que se adaptam perfeitamente à cor natural dos dentes, proporcionando um resultado discreto e duradouro. O procedimento é rápido, seguro e visa preservar ao máximo a estrutura dental saudável. Após a restauração, orientamos sobre os cuidados necessários para garantir a longevidade do tratamento e manter seu sorriso sempre bonito. Agende uma avaliação e saiba como podemos recuperar a saúde e beleza dos seus dentes!</p>
+            <li id="Tratamentop">Tratamento de Gengivite</li>
+                <p id="lista06">Tratamos gengivite com técnicas avançadas para garantir a saúde das suas gengivas. A gengivite é uma inflamação causada principalmente pelo acúmulo de placa bacteriana, podendo evoluir para problemas mais graves se não tratada adequadamente. Nosso tratamento inclui a remoção cuidadosa da placa e do tártaro, orientações de higiene bucal personalizada e acompanhamento regular para prevenir recidivas. Com atendimento humanizado e tecnologia moderna, ajudamos você a manter gengivas saudáveis, evitando sangramentos, mau hálito e perda dentária. Agende uma avaliação e cuide do seu sorriso desde a base!</p>
+            <li id="Canal">Canal Radicular</li>
+                <p id="lista07">Realizamos o tratamento de canal radicular com cuidado e precisão para salvar dentes comprometidos. O procedimento é indicado quando a polpa do dente está inflamada ou infectada, geralmente devido a cáries profundas ou traumas. Utilizamos técnicas modernas e anestesia local para garantir o máximo de conforto ao paciente durante todo o processo. Após a remoção da polpa comprometida, o canal é cuidadosamente limpo, desinfectado e preenchido com material biocompatível, preservando a estrutura dental e evitando a extração. Nossa equipe acompanha cada etapa do tratamento, orientando sobre os cuidados pós-procedimento para garantir a recuperação e a saúde do seu sorriso. Agende uma avaliação e saiba mais sobre como o tratamento de canal pode salvar seu dente e restaurar sua qualidade de vida!</p>
+            <li id="Proteses">Próteses Dentárias</li>
+                <p id="lista08">Oferecemos próteses dentárias personalizadas para restaurar a sua mastigação e estética. Nossas próteses são confeccionadas com materiais de alta qualidade, proporcionando conforto, durabilidade e aparência natural. Trabalhamos com diferentes tipos de próteses, como próteses totais, parciais e sobre implantes, sempre buscando a melhor solução para cada paciente. O processo inclui avaliação detalhada, planejamento individualizado e acompanhamento em todas as etapas, garantindo adaptação perfeita e satisfação com o resultado. Recupere sua confiança ao sorrir, falar e se alimentar. Agende uma consulta para saber qual prótese é ideal para você!</p>
+            <li id="Odontopediatria">Odontopediatria</li>
+                <p id="lista09">Atendemos crianças com carinho e atenção, garantindo uma experiência positiva desde cedo. Nossa equipe é especializada em odontopediatria, utilizando técnicas lúdicas e abordagem humanizada para que os pequenos se sintam seguros e confortáveis durante o atendimento. Realizamos acompanhamento preventivo, aplicação de flúor, orientação sobre higiene bucal e tratamento de cáries infantis. O cuidado com a saúde bucal na infância é fundamental para o desenvolvimento de dentes fortes e saudáveis. Agende uma consulta e proporcione ao seu filho um sorriso saudável desde os primeiros anos de vida!</p>
+            <li id="Periodontia">Periodontia</li>
+                <p id="lista10">Tratamos doenças periodontais com técnicas avançadas para preservar a saúde das suas gengivas. A periodontia é responsável pelo diagnóstico, prevenção e tratamento de problemas que afetam os tecidos de suporte dos dentes, como gengivas e osso. Realizamos procedimentos como raspagem, alisamento radicular e acompanhamento clínico para controlar a progressão da doença periodontal, evitando a perda dentária. Nossa equipe orienta sobre a importância da higiene bucal adequada e realiza avaliações periódicas para garantir a saúde das gengivas. Com atendimento humanizado e tecnologia moderna, ajudamos você a manter um sorriso saudável e livre de complicações periodontais. Agende uma consulta para avaliação e cuide da base do seu sorriso!</p>
+            <li id="Ortodontia">Ortodontia</li>
+                <p id="lista11">Oferecemos tratamentos ortodônticos personalizados para corrigir problemas de alinhamento dental. Nossa equipe utiliza aparelhos modernos, incluindo opções estéticas como alinhadores transparentes, para proporcionar conforto e discrição durante o tratamento. A ortodontia não só melhora a aparência do sorriso, mas também contribui para a saúde bucal, facilitando a higienização e prevenindo problemas como cáries e doenças gengivais. Realizamos avaliação detalhada para indicar o melhor tipo de aparelho para cada paciente, acompanhando todo o processo até a obtenção de resultados satisfatórios. Agende uma consulta e descubra como podemos transformar o seu sorriso com a ortodontia!</p>
+            <li id="Implantes">Implantes Dentários</li>
+                <p id="lista12">Os implantes dentários são a solução moderna para substituir dentes perdidos, devolvendo estética, função mastigatória e confiança ao sorriso. Utilizamos materiais biocompatíveis e técnicas avançadas para garantir resultados naturais e duradouros. O procedimento é realizado por profissionais experientes, com planejamento personalizado para cada paciente. Agende uma avaliação e saiba como os implantes podem transformar sua qualidade de vida!</p>
         </ul>
-        <p>Oferecemos uma ampla gama de serviços dentários para atender às suas necessidades. Nossa equipe está pronta para cuidar do seu sorriso com profissionalismo e carinho.</p>
-        <p>Agende uma consulta e venha nos conhecer!</p>
+        <article>
+            <h3>Agende sua consulta</h3>
+            <p>Para agendar uma consulta ou obter mais informações sobre nossos serviços, entre em contato conosco pelo telefone (51) 39336495 ou pelo e-mail
+        </article>
+        
     
 
                     </section>
@@ -75,7 +77,10 @@
                         <h2>Galeria</h2>
                         <p>Confira algumas fotos da nossa clínica e equipe.</p>
                       
-                        <img src="imagens/equipe.jpg" alt="Equipe de Dentistas" width="300">
+                        <img src="imagens/baixados.jpeg" alt="Equipe de Dentistas" width="300">
+                          <img src="imagens/Consultorio dental JR - Spacio Arquitectura.jpeg" alt="Equipe de Dentistas" width="300">
+                            <img src="imagens/Recepção Clínica Odontológica.jpeg" alt="Equipe de Dentistas" width="300">
+                              
                     </section>
                     <section id="avaliacoes">
                         <h2>Avaliações</h2>
@@ -87,6 +92,7 @@
                         
                         <blockquote>
                             "Profissionais atenciosos e competentes. Recomendo!" - João P.
+                            <img src="imagens/Advisory Board - ‹div›RIOTS.jpeg" alt="">
                         </blockquote>
                     </section>
         <section id="contato">
@@ -151,5 +157,7 @@
 <a href="https://wa.me/555139336495" class="whatsapp-fixed" target="_blank" title="WhatsApp">
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
 </a>
+
+<script src="script/scriptonload.js"></script>
 </body>
 </html>
