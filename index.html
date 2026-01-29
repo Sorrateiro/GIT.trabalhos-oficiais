@@ -126,13 +126,13 @@ unfold_more
             <p>Entre em contato conosco para agendar uma consulta ou esclarecer suas dúvidas.</p>
         
   
-        <form action="arquivo.php" method="post" autocomplete="on">
+        <form action="php/index.php" method="post" autocomplete="on">
             <label for="nome">Nome:</label>
             <input type="text" id="inome" name="nome" required><br>
             <label for="email">Email:</label>
             <input type="email" id="iemail" name="email" required><br>
             <label for="telefone">Telefone:</label>
-            <input type="tel" id="itelefone" name="telefone" autocomplete="tel" pattern="[0-9]{4}-[0-9]{4}" required><br>
+            <input type="tel" id="itelefone" name="telefone" placeholder="(XX) XXXXX-XXXX" autocomplete="tel" required><br>
             <label for="mensagem">Mensagem:</label>
             <textarea id="imensagem" name="mensagem" required></textarea><br>
 
