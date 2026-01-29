@@ -1,8 +1,8 @@
 <?php
-if($_SERVER["REQUEST_METHOD"] == "POST"){
-    $nome = $_POST['nome'];
-    $email = $_POST['email'];
-    $mensagem = $_POST['mensagem'];
+if($_SERVER["REQUEST_METHOD"] == "GET"){
+    $nome = $_GET['nome'];
+    $email = $_GET['email'];
+    $mensagem = $_GET['mensagem'];
 
     $to = "rinnovareodontors@gmail.com"; // coloque seu e-mail aqui
     $subject = "Mensagem do Portfólio";
