@@ -4,7 +4,7 @@ if($_SERVER["REQUEST_METHOD"] == "GET"){
     $email = $_GET['email'];
     $mensagem = $_GET['mensagem'];
 
-    $to = "rinnovareodontors@gmail.com"; // coloque seu e-mail aqui
+    $to = "gregorytrajano289@gmail.com"; // coloque seu e-mail aqui
     $subject = "Mensagem do Portfólio";
     $body = "Nome: $nome\nEmail: $email\nMensagem:\n$mensagem";
 
