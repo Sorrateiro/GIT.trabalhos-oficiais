@@ -126,24 +126,25 @@ unfold_more
             <p>Entre em contato conosco para agendar uma consulta ou esclarecer suas dúvidas.</p>
         
   
-        <form action="php/index.php" method="post" autocomplete="on">
-            <label for="nome">Nome:</label>
-            <input type="text" id="inome" name="nome" required><br>
-            <label for="email">Email:</label>
-            <input type="email" id="iemail" name="email" required><br>
-            <label for="telefone">Telefone:</label>
-            <input type="tel" id="itelefone" name="telefone" placeholder="(XX) XXXXX-XXXX" autocomplete="tel" required><br>
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="imensagem" name="mensagem" required></textarea><br>
-
-            <a href="termos.html">Leia os termos e condições</a>
-            <input type="checkbox" id="iaceito" class="chequemm" name="aceito" value="sim" required>
-            <label for="iaceito" class="emaceito">Aceito os termos e condições</label>
-
-            <br>
-            <button type="submit">Enviar</button>
-            <input type="reset" value="Limpar">
-        </form>
+     
+            <form action="php/index.php" method="get" autocomplete="on">
+                 
+                <label for="nome">Nome:</label>
+                <input type="text" id="inome" name="nome" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="iemail" name="email" required><br>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="itelefone" name="telefone" pattern="^[0-9]{4}-[0-9]{4}" autocomplete="tel" required><br>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="imensagem" name="mensagem" required></textarea><br>
+                <a href="termos.html">Leia os termos e condições</a>
+                <input type="checkbox" id="iaceito" class="chequemm" name="aceito" value="sim" required>
+                <label for="iaceito" class="emaceito">Aceito os termos e condições</label>
+                <br>
+                <button type="submit">Enviar</button>
+                <input type="reset" value="Limpar">
+            </form>
+       
         <section id="convenios"></section>
             <h2>Convênios Aceitos</h2>
             <ul>
