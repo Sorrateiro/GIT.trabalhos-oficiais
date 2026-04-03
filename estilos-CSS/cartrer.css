@@ -328,3 +328,7 @@ blockquote footer a:hover {
     margin-right: 10px;
     margin-right: 0;
 }
+.whatsapp-fixed:hover {
+    background: #1DA851;
+    text-decoration: none;
+}
