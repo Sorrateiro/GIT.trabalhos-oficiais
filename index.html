@@ -5,20 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rinnovare</title>
-    <link rel="stylesheet" href="estilos-CSS/cartrer.css">
+    <link rel="stylesheet" href="estilos-CSS/FarstMobile.css">
     <link rel="shortcut icon" href="imagens/favicon do dente/android-chrome-192x192.png" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&" />
+    <link rel="stylesheet" href="estilos-CSS/mediaquery.css">
 </head>
-<body onload="oculto()">
+<body onload="oculto()" onresize="MudeDisplay()" >
     <header>
-        <h1>RINNOVARE</h1>
+        <h1 class="titulo">RINNOVARE</h1>
        <div class="logo">
            <img src="imagens/dente-imagem-png.png" alt="Logo da Clínica Dentária" width="100"> 
-           <h2><em>Odontologia Humanizada</em></h2>
+           <h2 class="subtitulo"><em>Odontologia Humanizada</em></h2>
             <p><em>Bem-vindo à nossa clínica dentária! <br>
                  Aqui, cuidamos do seu sorriso com carinho e profissionalismo.</em></p>
        </div>
-        <nav>
+       <span class="material-symbols-outlined" id="Hamburguer" onclick="Menuclick()">
+menu
+</span>
+        <nav id="menu">
             <ul>
                 <li><a href="#servicos">Serviços</a></li>
                 <li><a href="#contato">Contato</a></li>
@@ -30,6 +35,10 @@
 
     
     </header>
+    <div class="portifolio">
+        <div></div>
+        <div></div>
+    </div>
     <section id="servicos">
         <h2>Nossos Serviços</h2>
         <ul>
@@ -126,7 +135,7 @@
         
   
      
-            <form action="php/index.php" method="post" autocomplete="on">
+            <form action="php/mesagem.php" method="post" autocomplete="on">
                  
                 <label for="nome">Nome:</label>
                 <input type="text" id="inome" name="nome" required><br>
