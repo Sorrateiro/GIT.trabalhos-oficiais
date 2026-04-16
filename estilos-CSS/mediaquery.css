@@ -26,3 +26,52 @@
         display: block;
     }
 }
+div{
+    display: ;
+}
+.frases{
+       padding:300px 60px;
+       width: 100%;
+        background-image: url('../imagens/velho_sorrindo.png');
+        /* Faz a imagem cobrir todo o fundo sem esticar desproporcionalmente */
+        background-size: cover;
+  
+        /* Evita que a imagem se repita */
+        background-repeat: no-repeat;
+        
+        /* Centraliza a imagem */
+        background-position: center;
+        
+        /* Mantém a imagem fixa ao rolar a página (opcional) */
+        background-attachment: fixed;
+}
+.frases p {
+    background-color: #ffffff3a;
+    width: 50%;
+    font-family: 'Diphylleia', serif;
+    font-size: 2rem;
+    color: #000000fd;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.849);
+    margin-bottom: 16px;
+    text-decoration: underline  rgba(0, 0, 0, 0.315);
+    text-align: left;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+@media screen  and (max-width: 1020px) {
+    .frases {
+        padding: 150px 20px;
+        margin: 0 auto;
+        background-image: url('../imagens/velho_sorrindo002.png'); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .frases p {
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
