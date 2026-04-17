@@ -92,6 +92,12 @@ header nav ul li a {
     text-decoration: underline;
     
 }
+.Descricao{
+    text-indent: 30px;
+    text-align: justify;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 section {
     max-width: 800px;
     margin: 20px auto;
@@ -106,6 +112,7 @@ section ul li {
     border-radius: 4px;
     margin-bottom: 8px;
     list-style: none;
+    cursor: pointer;
 }
 section ul li:hover {
     background-color: #cbd5e0; /* cinza médio */
